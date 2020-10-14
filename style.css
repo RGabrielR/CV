@@ -1,0 +1,120 @@
+*{
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+p { margin: 2% }
+.flex-principal{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nombreYFoto{
+    display: flex;
+    flex-direction: column;
+}
+.fotoCV{
+    width: 300px;
+    border: solid 5px #AAB9EE;
+    margin-bottom: -1.7%;
+    
+}
+
+.borde2{
+    border: solid 10px #889CE7;
+}
+.borde3{
+    border: 5px solid #1F271B;
+    align-self: center;
+}
+.infomia{
+    padding: 0 5%;
+    background-color: #FEF7C2;
+    border: solid #889CE7 5px;
+    
+}
+.bordeInterior{
+    margin-top: 5px;
+    border: 5px black solid;
+}
+.titulos{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+} 
+.masdats{
+    text-align: center;
+    font-weight: lighter;
+}
+.estrella{
+    width: 15px;
+}
+li{
+    list-style: none;
+}
+.encabezado{
+    font-size: 20px;
+    border: 5px inset #972D07;
+    background-color: rgba(251, 133, 55, 0.5);
+    width: 500px;
+    height: 50px;
+    margin: 50px;
+    margin-left: 0px !important;
+    transition: ease-in 300ms;
+    align-self: center;
+    
+}
+.encabezado:hover{
+    border: 5px outset #972D07;
+    background-color: rgba(187, 98, 39, 0.5);
+}
+.experienciaFecha{
+    font-size: large;
+    font-style: italic;
+    color: gray;
+}
+.experienciaDonde{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.habilidadesResaltar{
+    font-weight: bold;
+}
+
+ .fondo{
+    background-color: #FEF7C2;
+    margin-top: -9%;
+    width: 500px;
+    border-left: outset gray 5px;
+    
+    border-right: inset gray 5px;
+    text-align: center;
+    
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+   
+   
+}
+
+.fondo ul{
+    padding-top: 1%;
+}
+.fondo ul a{
+    text-decoration: none;
+    color: #972D07;
+    font-weight: bolder;
+}
+.centrado{
+    padding-left: 40%;
+    transition: ease-in 300ms;
+    color: black;
+}
+.centrado a{
+    text-decoration: none;
+    color: #1f271b;
+    font-weight: bolder;
+}
+body{
+    background: linear-gradient(143deg, rgba(229,234,250,1) 16%, rgba(255,255,255,1) 23%, rgba(204,213,245,1) 64%);
+}
