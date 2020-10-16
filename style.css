@@ -125,15 +125,16 @@ body{
 }
 @media (max-width: 656px){
     body{
-        zoom: 80%;
+        zoom: 60%;
     }
     section{
         margin-left: 10%;
     }
-    .encabezado{
+    /* .encabezado{
         width: 70%;   
     }
     .fondo{
         width: 70%;
-    }
+        margin-left: 10%;
+    } */
 }
