@@ -131,7 +131,9 @@ body{
         margin-left: 10%;
     }
     .encabezado{
+        width: 70%;   
+    }
+    .fondo{
         width: 70%;
-        
     }
 }
